@@ -59,5 +59,10 @@ lambda_packages = {
         'version': '3.1.1',
         'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                              'bcrypt', 'bcrypt-3.1.1.tar.gz')
+    },
+    'regex': {
+        'version': '2016.8.27',
+        'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             'regex', 'regex-2016.8.27.tar.gz')
     }
 }
